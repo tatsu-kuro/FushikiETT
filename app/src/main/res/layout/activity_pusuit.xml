@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        tools:context=".PusuitActivity">
+    <SurfaceView
+            android:id="@+id/surfacePur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:id="@+id/dammy"/>
+
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/furi1"
+            android:id="@+id/furi1"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/dammy"/>
+
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/furi2"
+            android:id="@+id/furi2"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/dammy"/>
+
+</RelativeLayout>
